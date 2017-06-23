@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta required name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>qtaaruf</title>
+		<meta required name="viewport" content="width=device-width, initial-scale=1">
+		<meta required name="description" content="taaruf online" />
+		<meta required name="keywords" content="taaruf online, qtaaruf, taaruf" />
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta required name="twitter:title" content="" />
+		<meta required name="twitter:image" content="" />
+		<meta required name="twitter:url" content="" />
+		<meta required name="twitter:card" content="" />
+
+		<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
+		
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="../assets/css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="../assets/css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="../assets/css/bootstrap.css">
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="../assets/css/magnific-popup.css">
+		<!-- Theme style  -->
+		<link rel="stylesheet" href="../assets/css/style.css">
+		<!-- Modernizr JS -->
+		<script src="../assets/js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<link rel="icon" href="../assets/images/icon.png">
+	</head>
+	<body>	
+		
+		<div class="fh5co-loader"></div>	
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo">
+							<a href="../"><img src="../assets/images/logo.png"></a>
+						</div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="../">Home</a></li>
+							<li ><a href="../proses.html">Process</a></li>
+							<li><a href="../gallery.html">Gallery</a></li>
+							<!--<li class="active" ><a href="#">Register</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(../assets/images/img_bg_2.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+								<h1>Register Ta`aruf</h1>
+								<h2>Hi single muslim! untuk memulai ta`aruf silahkan lengkapi biodata dibawah ini, semoga qtaaruf menjadi bagian perjalananmu untuk menemukan separuh agamamu.</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+			<div id="fh5co-portfolio">
+				<div class="container">
+					<div class="row">
+						<div class="register-content container col-sm-8 col-sm-offset-2">
+							<form method="POST" action="data/input.php" class="form-horizontal form" >
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Hai siapa nama kamu?</label>
+											<input id="nama" name="nama" type="text" placeholder="" class="form-control">
+										</div>
+									</div>
+								</div>
+							<!--	<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kamu biasanya dipanggil siapa?</label>
+											<input id="panggilan" name="panggilan" type="text" placeholder="" class="form-control">
+										</div>
+									</div>
+								</div> -->
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Dimana kota kamu lahir?</label>
+											<input type="text" placeholder="" class="form-control" name="tempat_lahir" id="tempat_lahir">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kapan kamu lahir?</label>
+											<input type="date" placeholder="" class="form-control" name="tanggal_lahir" id="tanggal_lahir">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Berapa tinggi badanmu? </label>
+											<input type="number" placeholder="" class="form-control" name="tinggi" id="tinggi">
+											<small class="pull-right"> Dalam cm contoh: 180</small>
+										</div>
+										
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Berapa berat badanmu?</label>
+											<input type="number" placeholder="" class="form-control" name="berat" id="berat">
+											<small class="pull-right"> Dalam kg contoh: 80</small>
+										</div>
+									</div>
+								</div>
+							<!--	<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kamu laki - laki atau perempuan?</label>
+											<input type="text" placeholder="" class="form-control" name="gender" id="gender">
+										</div>
+									</div>
+								</div> -->
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa golongan darahmu?</label>
+											<select name="golongan_darah" id="golongan_darah" class="form-control">
+												<option value="A">A</option>
+												<option value="B">B</option>
+                                                <option value="AB">AB</option>
+												<option value="O">O</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa kamu pernah menikah sebelumnya?</label>
+											<select name="status_pernikahan" id="status_pernikahan" class="form-control">
+												<option value="Ya">Ya, saya pernah menikah</option>
+												<option value="Tidak">Tidak, saya belum pernah menikah</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa pekerjaanmu saat ini?</label>
+											<input type="text" placeholder="" class="form-control"  name="pekerjaan" id="pekerjaan">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Berapa penghasilanmu perbulanmu saat ini?</label>
+											<select name="penghasilan" id="penghasilan" class="form-control">
+												<option value="3">Rp. 3.000.000 - Rp. 5.000.000</option>
+												<option value="5">Rp. 5.000.000 - Rp. 7.500.000</option>
+                                                <option value="7">Rp. 7.500.000 - Rp. 10.000.000</option>
+												<option value="10">Rp. 10.000.000 keatas</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Siapa nama ayahmu?</label>
+											<input type="text" placeholder="" class="form-control"  name="nama_ayah" id="nama_ayah">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kalau boleh tau, apa suku ayahmu?</label>
+											<input type="text" placeholder="" class="form-control"  name="suku_ayah" id="suku_ayah">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Siapa nama ibumu?</label>
+											<input type="text" placeholder="" class="form-control"  name="nama_ibu" id="nama_ibu">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kalau boleh tau, apa suku ibumu?</label>
+											<input type="text" placeholder="" class="form-control" name="suku_ibu" id="suku_ibu">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa kamu sudah mendapatkan izin menikah?</label>
+											<select name="izinmenikah" id="izinmenikah" class="form-control">
+												<option value="ya">Ya, saya sudah mendapatkan izin</option>
+												<option value="tidak">Belum, saya belum mendapatkan izin</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Biodata</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Dimana alamatmu sekarang?</label>
+											<input type="text" placeholder="" class="form-control"  name="alamat" id="alamat">
+										</div>
+									</div>
+								</div>
+								
+								<div class="step">
+									<h3 class="step-head text-center">Pendidikan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Dulu kamu sekolah di SD mana?</label>
+											<input type="text" placeholder="" class="form-control"  name="sd" id="sd">
+											<small class="pull-right"> Contoh : SDN Bakalan 1999 - 2005</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Pendidikan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kemudian SMPnya dimana?</label>
+											<input type="text" placeholder="" class="form-control"  name="smp" id="smp">
+											<small class="pull-right"> Contoh : SMPN 1 Balongbendo 2005 - 2008</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Pendidikan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kalau SMA?</label>
+											<input type="text" placeholder="" class="form-control"  name="sma" id="sma">
+											<small class="pull-right"> Contoh : SMA Al-Islam 2008 - 2011</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Pendidikan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Terus lanjut ke Perguruan Tinggi mana?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="perguruan_tinggi" id="perguruan_tinggi"></textarea>
+											<small class="pull-right"> Contoh : S1 Sistem Komputer Unesa 2010</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Pendidikan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa saja prestasi atau penghargaan yang pernah kamu raih?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="prestasi_penghargaan" id="prestasi_penghargaan"></textarea>
+											<small class="pull-right"> Contoh : Juara 1 lomba robot di ITS 2010</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Organisasi & Kepanitiaan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Organisasi atau komunitas apa yang pernah kamu ikuti?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="organisasi_komunitas" id="organisasi_komunitas"></textarea>
+											<small class="pull-right"> Contoh : Bendahara Hima sistem informasi ITS 2010-2011</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Organisasi & Kepanitiaan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu pernah terlibat pengalaman kepanitiaan? jika pernah tolong ceritakan pengalamanmu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="panitia" id="panitia"></textarea>
+											<small class="pull-right"> Contoh : Panitia lomba robot di ITS 2010</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Pengalaman Bekerja</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kamu pernah bekerja dimana saja?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="pengalamankerja" id="pengalamankerja"></textarea>
+											<small class="pull-right"> Contoh : Sekertaris di PT. Maju Jaya 2010-2015</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Ceritakan tentang dirimu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="tentang_dirimu" id="tentang_dirimu"></textarea>
+											<small class="pull-right" id="remain_dirimu"></small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa sih motto hidupmu?</label>
+											<input type="text" placeholder="" class="form-control" name="motto" id="motto">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa hobi kamu?</label>
+											<input type="text" placeholder="" class="form-control"  name="hobi" id="hobi">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kalau boleh tau apa bacaan favorit kamu?</label>
+											<input type="text" placeholder="" class="form-control"  name="buku_favorit" id="buku_favorit">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Website / situs apa yang sering kamu kunjungi ?</label>
+											<input type="text" placeholder="" class="form-control"  name="situs_favorit" id="situs_favorit">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Siapa sih tokoh idolamu?</label>
+											<input type="text" placeholder="" class="form-control"  name="idola" id="idola">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Aktivitas apa yang kamu sukai sehari-hari?</label>
+											<input type="text" placeholder="" class="form-control"  name="disukai" id="disukai">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Hal-hal apa saja yang tidak kamu sukai dalam hidupmu?</label>
+											<input type="text" placeholder="" class="form-control"  name="tidaksuka" id="tidaksuka">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Sebutkan 5 karakter positif dalam dirimu?</label>
+											<input type="text" placeholder="" class="form-control"  name="positif" id="positif">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Sebutkan 5 karakter negatif dalam dirimu?</label>
+											<input type="text" placeholder="" class="form-control"  name="negatif" id="negatif">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu memiliki kekurangan secara fisik?</label>
+											<input type="text" placeholder="" class="form-control"  name="penyakit" id="penyakit">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu mengikuti jamaah islam tertentu?</label>
+											<input type="text" placeholder="" class="form-control"  name="jamaah" id="jamaah">
+											<small class="pull-right"> contoh : Muhammadiyah, NU , Tarbiyah, dll</small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil Keluarga</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Ceritakan tentang ayahmu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="profil_ayah" id="profil_ayah"></textarea>
+											<small class="pull-right" id="remain_ayahmu"></small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil Keluarga</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Ceritakan tentang ibumu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="profil_ibu" id="profil_ibu"></textarea>
+											<small class="pull-right" id="remain_ibumu"></small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Profil Keluarga</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Ceritakan tentang saudara - saudaramu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="profil_saudara" id="profil_saudara"></textarea>
+											<small class="pull-right" id="remain_saudaramu"></small>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu merokok ?</label>
+											<input type="text" placeholder="" class="form-control"  name="merokok" id="merokok">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa sih makanan favorit kamu?</label>
+											<input type="text" placeholder="" class="form-control"  name="makan" id="makan">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kalau minuman favoritmu apa?</label>
+											<input type="text" placeholder="" class="form-control"  name="minum" id="minum">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Jam berapa sih biasanya kamu tidur?</label>
+											<input type="text" placeholder="" class="form-control"  name="tidur" id="tidur">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Bagaimana ibadah wajib harianmu?</label>
+											<input type="text" placeholder="" class="form-control"  name="ibadah_wajib_harian" id="ibadah_wajib_harian">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Biasanya kamu melaksanakan ibadah sunnah apa saja?</label>
+											<input type="text" placeholder="" class="form-control"  name="ibadah_sunnah_harian" id="ibadah_sunnah_harian">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu bisa membaca Al-qur`an?</label>
+											<input type="text" placeholder="" class="form-control"  name="membaca_alquran" id="membaca_alquran">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu memiliki hafalan Al-qur`an?</label>
+											<input type="text" placeholder="" class="form-control"  name="hafalan" id="hafalan">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kajian rutin apa yang biasanya kamu ikuti?</label>
+											<input type="text" placeholder="" class="form-control"  name="pengajian" id="pengajian">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa sih yang kamu lakukan di waktu luang?</label>
+											<input type="text" placeholder="" class="form-control"  name="waktu_luang" id="waktu_luang">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Aktivitas Dan Kebiasaan Sehari - Hari</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Bagaimana hubunganmu dengan teman - temanmu?</label>
+											<input type="text" placeholder="" class="form-control"  name="sosialisasi" id="sosialisasi">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kesiapan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah arti pernikahan bagimu?</label>
+											<input type="text" placeholder="" class="form-control"  name="ilmu" id="ilmu">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kesiapan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa saja yang telah kamu persiapkan untuk menikah?</label>
+											<input type="text" placeholder="" class="form-control"  name="mental" id="mental">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kesiapan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu sudah siap secara finansial untuk menikah?</label>
+											<input type="text" placeholder="" class="form-control"  name="finansial" id="finansial">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kesiapan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah orang tuamu sudah memberi izin?</label>
+											<input type="text" placeholder="" class="form-control"  name="ortu" id="ortu">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kesiapan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Berapa lama kamu siap menikah setelah menjalani proses ta`aruf?</label>
+											<input type="text" placeholder="" class="form-control"  name="waktu" id="waktu">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Visi & Misi</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa sih visi-misi pernikahanmu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="visimisi" id="visimisi"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kriteria usia calon pasanganmu</label>
+											<select name="kriteria_usia" id="kriteria_usia" class="form-control">
+												<option value="-1">Sama atau lebih muda</option>
+												<option value="0">Tidak ada kriteria khusus</option>
+                                                <option value="1">Sama atau lebih tua</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kriteria tinggi calon pasanganmu</label>
+											<select name="kriteria_tinggi" id="kriteria_tinggi" class="form-control">
+												<option value="-1">Sama atau lebih rendah</option>
+												<option value="0">Tidak ada kriteria khusus</option>
+                                                <option value="1">Sama atau lebih tinggi</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kriteria berat calon pasanganmu</label>
+											<select name="kriteria_berat" id="kriteria_berat" class="form-control">
+												<option value="-1">Sama atau lebih rendah</option>
+												<option value="0">Tidak ada kriteria khusus</option>
+                                                <option value="1">Sama atau lebih berat</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kriteria penghasilan calon pasanganmu</label>
+											<select name="kriteria_penghasilan" id="kriteria_penghasilan" class="form-control">
+												<option value="-1">Sama atau lebih rendah</option>
+												<option value="0">Tidak ada kriteria khusus</option>
+                                                <option value="1">Sama atau lebih tinggi</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Karakteristik pasangan seperti apa yang kamu harapkan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="nonfisik" id="nonfisik"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Kriteria Pasangan</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Orangtuamu ingin menantu seperti apa?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="kriteria_ortu" id="kriteria_ortu"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Acara pernikahan seperti apa yang kamu inginkan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="gambaran_acara_pernikahan" id="gambaran_acara_pernikahan"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Dimana kamu akan berdomisili setelah menikah?</label>
+											<input type="text" placeholder="" class="form-control"  name="domisili" id="domisili">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Kehidupan rumah tangga seperti apa yang kamu inginkan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="kehidupan_RT" id="kehidupan_RT"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Setelah menikah karir seperti apa yang kamu inginkan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="karir" id="karir"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Saat menikah nanti, bagaimana caramu mendidik anak?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="pendidikan_anak" id="pendidikan_anak"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Setelah menikah nanti, bagaimana caramu mengelola keuangan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="keuangan_keluarga" id="keuangan_keluarga"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa target yang ingin kamu raih dalam 5 tahun kedepan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="target_pendek" id="target_pendek"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa target yang ingin kamu raih dalam 10 tahun kedepan?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="target_panjang" id="panjang"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Lain - Lain</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apa visi-misi hidupmu?</label>
+											<textarea placeholder="" rows="3" class="form-control"  name="visi_hidup" id="visi_hidup"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<h3 class="step-head text-center">Contact Person</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Berapa nomor telepon kamu?</label>
+											<input type="text" placeholder="" class="form-control"  name="phone" id="phone">
+										</div>
+									</div>
+								</div>
+								<div class="step">
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Apakah kamu sudah yakin dengan informasi yang kamu tuliskan?</label>
+										</div>
+									</div>
+								</div>
+							<!--	<div class="step">
+									<h3 class="step-head text-center">Rencana Pernikahan & Harapan Pasca Menikah</h3>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<div class="col-sm-9 col-sm-offset-1">
+										<div class="col-sm-offset-1">
+											<label >Tuliskan juga alamat email kamu agar bisa kamu hubungi..</label>
+											<textarea placeholder="" rows="3" class="form-control" required name="email" id="email"></textarea>
+										</div>
+									</div>
+								</div> -->
+								<div class="row">
+								  <div class="col-sm-9 col-sm-offset-1">
+									  <div class="pull-right">
+										<button type="button" class="action btn-sky text-capitalize back btn">Back</button>
+										<button type="button" class="action btn-sky text-capitalize next btn">Next</button>
+										<button id="simpan-register" type="submit" class="action btn-hot text-capitalize submit btn" value="submit">Submit</button>
+									  </div>
+								  </div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	<div id="fh5co-started">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading-subscribe">
+							<h2>Subscribe</h2>
+							<h3>Dapatkan e-book dan tips-tips menarik tentang membangun keluarga sakinah.</h3>
+							
+						</div>
+					</div>
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2">
+							<form method="POST" action="../subscribe/input.php" class="form-inline">
+								<div class="col-md-6 col-sm-6">
+									<div class="form-group">
+									
+										<label for="email" class="sr-only">Email</label>
+										<input type="email" class="form-control" placeholder="Email" id="subscribe" name="subscribe" required>
+									</div> 
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-4 col-sm-4 fh5co-widget text-left">
+						<h3>Hubungi Kami</h3>
+						<p>Spazio Forward Factory Lt. 7<br>Jl. Mayjen Yonosuwoyo Kav.3, Surabaya<br>admin@qtaaruf.com<br>+62857 2977 2893</p>
+						<!-- <h3>Hubungi Kami</h3>
+						<p>qtaaruf<br>Gedung Spazio Forward Factory	Lt. 7<br>Jl. Mayjen Yonosuwoyo Kav.3, Surabaya<br>qtaaruf.indonesia@gmail.com<br>+62857 2977 2893</p> -->
+					</div>
+				<!--	<div class="col-md-4 col-sm-4 fh5co-widget text-center">
+						<h3>Supported by</h3>
+						<img src="../assets/images/1000sd.jpg" style="width: 20%; height: 20%; margin-left: 2.5%; margin-right: 2.5%">
+						<img src="../assets/images/iqf.jpg" style="width: 20%; height: 20%; margin-left: 2.5%; margin-right: 2.5%">
+						<img src="../assets/images/sekolahcinta.jpg" style="width: 20%; height: 20%; margin-left: 2.5%; margin-right: 2.5%">
+						
+						 <h3>Hubungi Kami</h3>
+						<p>qtaaruf<br>Gedung Spazio Forward Factory	Lt. 7<br>Jl. Mayjen Yonosuwoyo Kav.3, Surabaya<br>qtaaruf.indonesia@gmail.com<br>+62857 2977 2893</p>
+					</div> -->
+					<!-- <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Terms</a></li>
+							<li><a href="#">Meetups</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#">Handbook</a></li>
+							<li><a href="#">Held Desk</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Find Designers</a></li>
+							<li><a href="#">Find Developers</a></li>
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Advertise</a></li>
+							<li><a href="#">API</a></li>
+						</ul>
+					</div> -->
+					<div class="col-md-4 col-sm-4 text-center">
+						<p>
+							<small class="block">&copy; 2017 qtaaruf.com</small>
+						</p>
+						<p>
+							<ul class="fh5co-social-icons">
+								<!-- <li><a href="#"><i class="icon-mail"></i></a></li> -->
+								<li><a href="https://www.facebook.com/Qtaaruf/"><i class="icon-facebook"></i></a></li>
+								<li><a href="http://instagram.com/_u/qtaaruf"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://www.twitter.com/qtaaruf"><i class="icon-twitter"></i></a></li>
+								<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
+							</ul>
+						</p>
+					</div>
+				</div>
+
+				<!-- <div class="row copyright">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">&copy; 2017 qtaaruf</small> 
+							<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+						</p>
+						<p>
+							<ul class="fh5co-social-icons">
+								<!-- <li><a href="#"><i class="icon-mail"></i></a></li>
+								<li><a href="https://www.facebook.com/Qtaaruf/"><i class="icon-facebook"></i></a></li>
+								<li><a href="http://instagram.com/_u/qtaaruf"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://www.twitter.com/qtaaruf"><i class="icon-twitter"></i></a></li>
+								<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+				</div> -->
+			</div>
+		</footer>
+		
+		<!-- jQuery -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery-ui.min.js"></script>
+		<script src="../assets/js/jquery.validate.js"></script>
+		<!-- jQuery Easing -->
+		<script src="../assets/js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="../assets/js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="../assets/js/jquery.waypoints.min.js"></script>
+		<!-- countTo -->
+		<script src="../assets/js/jquery.countTo.js"></script>
+		<!-- Magnific Popup -->
+		<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="../assets/js/magnific-popup-options.js"></script>
+		<!-- Main -->
+		<script src="../assets/js/main.js"></script>
+		<!-- <script src="{{ url('js/gallery.js') }}"></script> -->
+
+	</body>
+	<script>
+	$(document).ready(function(){
+			
+		var current = 1;
+		
+		widget      = $(".step");
+		btnnext     = $(".next");
+		btnback     = $(".back"); 
+		btnsubmit   = $(".submit");
+
+		// Init buttons and UI
+		widget.not(':eq(0)').hide();
+		hideButtons(current);
+		setProgress(current);
+		
+		$('#remain_dirimu,#remain_ayahmu,#remain_ibumu,#remain_saudaramu').each(function(){
+			$(this).html('Min. ' + 150 + ' karakter');
+		});
+		
+		$('#tentang_dirimu').keyup(function() {
+			var text_length = $('#tentang_dirimu').val().length;
+			if(text_length<=150){
+				var text_remaining = 150 - text_length;
+				$('#remain_dirimu').html(text_remaining + ' karakter lagi');
+			}
+		});
+		$('#profil_ayah').keyup(function() {
+			var text_length = $('#profil_ayah').val().length;
+			if(text_length<=150){
+				var text_remaining = 150 - text_length;
+				$('#remain_ayahmu').html(text_remaining + ' karakter lagi');
+			}
+		});
+		$('#profil_ibu').keyup(function() {
+			var text_length = $('#profil_ibu').val().length;
+			if(text_length<=150){
+				var text_remaining = 150 - text_length;
+				$('#remain_ibumu').html(text_remaining + ' karakter lagi');
+			}
+		});
+		$('#profil_saudara').keyup(function() {
+			var text_length = $('#profil_saudara').val().length;
+			if(text_length<=150){
+				var text_remaining = 150 - text_length;
+				$('#remain_saudaramu').html(text_remaining + ' karakter lagi');
+			}
+		});
+		
+		
+		$(document).on("keypress", ":input:not(textarea)", function(event) {
+			if (event.keyCode == 13) {
+				if(current < widget.length){
+					if($(".form").valid()){
+						widget.show();
+						widget.not(':eq('+(current++)+')').hide();
+						setProgress(current);
+					}
+				}
+				hideButtons(current);
+			}
+			
+		});
+		// Next button click action
+		btnnext.click(function(){
+			if(current < widget.length){
+				 //Check validation
+				if($(".form").valid()){
+					widget.show();
+					widget.not(':eq('+(current++)+')').hide();
+					setProgress(current);
+				}
+			}
+			hideButtons(current);
+		})
+
+		// Back button click action
+		btnback.click(function(){
+			if(current > 1){
+				current = current - 2;
+				if(current < widget.length){
+					widget.show();
+					widget.not(':eq('+(current++)+')').hide();
+					setProgress(current);
+				}
+			}
+			hideButtons(current);
+		})
+
+		$('.form').validate({ // initialize plugin
+			ignore:":not(:visible)",			
+			rules: {
+				nama     			: "required",
+				tempat_lahir    	: "required",
+				tanggal_lahir   	: "required",
+				tinggi     			: "required",
+				berat     			: "required",
+				golongan_darah  	: "required",
+				status_pernikahan	: "required",
+				pekerjaan     		: "required",
+				penghasilan	    	: "required",
+				nama_ayah		   	: "required",
+				suku_ayah  			: "required",
+				nama_ibu   			: "required",
+				suku_ibu   			: "required",
+				izinmenikah		  	: "required",
+				alamat     			: "required",
+				sd		     		: "required",
+				smp			    	: "required",
+				sma				   	: "required",
+				perguruan_tinggi	: "required",
+				prestasi_penghargaan: "required",
+				organisasi_komunitas: "required",
+				panitia				: "required",
+				pengalamankerja		: "required",
+				tentang_dirimu    	: {required : true, minlength:150},
+				motto			   	: "required",
+				hobi	  			: "required",
+				buku_favorit		: "required",
+				situs_favorit		: "required",
+				idola				: "required",
+				disukai    			: "required",
+				tidaksuka     		: "required",
+				positif				: "required",
+				negatif				: "required",
+				penyakit			: "required",
+				jamaah				: "required",
+				profil_ayah			: {required : true, minlength:150},
+				profil_ibu			: {required : true, minlength:150},
+				profil_saudara		: {required : true, minlength:150},
+				merokok				: "required",
+				makan				: "required",
+				minum				: "required",
+				tidur				: "required",
+				ibadah_wajib_harian	: "required",
+				ibadah_sunnah_harian: "required",
+				membaca_alquran		: "required",
+				hafalan				: "required",
+				pengajian			: "required",
+				waktu_luang			: "required",
+				sosialisasi			: "required",
+				ilmu				: "required",
+				finansial			: "required",
+				mental				: "required",
+				ortu				: "required",
+				waktu				: "required",
+				visimisi			: "required",
+				kriteria_usia		: "required",
+				kriteria_tinggi		: "required",
+				kriteria_berat		: "required",
+				kriteria_penghasilan: "required",
+				nonfisik			: "required",
+				kriteria_ortu		: "required",
+				gambaran_acara_pernikahan	: "required",
+				domisili			: "required",
+				kehidupan_RT		: "required",
+				karir				: "required",
+				pendidikan_anak		: "required",
+				keuangan_keluarga	: "required",
+				target_pendek		: "required",
+				target_panjang		: "required",
+				visi_hidup			: "required",
+				phone				: "required",
+			},
+	    });
+	    
+	});	
+		// Change progress bar action
+	setProgress = function(currstep){
+		var percent = parseFloat(100 / widget.length) * currstep;
+		percent = percent.toFixed();
+		$(".progress-bar").css("width",percent+"%").html(percent+"%");		
+	}
+
+	// Hide buttons according to the current step
+	hideButtons = function(current){
+		var limit = parseInt(widget.length); 
+
+		$(".action").hide();
+
+		if(current < limit) btnnext.show();
+		if(current > 1) btnback.show();
+		if (current == limit) { 
+			// Show entered values
+			$(".display label:not(.control-label)").each(function(){
+				console.log($(this).find("label:not(.control-label)").html($("#"+$(this).data("id")).val()));	
+			});
+			btnnext.hide(); 
+			btnsubmit.show();
+		}
+	}
+	
+	$('html,body').animate(window.scrollBy(0, 500),800);
+</script>
+</html>
